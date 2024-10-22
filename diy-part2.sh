@@ -21,3 +21,7 @@
 
 #修改默认主题为netgear
 sed -i 's/luci-theme-bootstrap/luci-theme-netgear/g' feeds/luci/collections/luci/Makefile
+
+apt-get update
+apt-get upgrade
+sudo apt-get install python
